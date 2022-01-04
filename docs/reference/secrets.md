@@ -130,6 +130,7 @@
 Currently, the Admin Secret no longer works as RobTop became aware of it
 </center>
 
+<!-- todo: clean-up + explain reasoning clearer-->
 
 ### Secret Structure
 
@@ -141,7 +142,7 @@ A Secret is split into 5 Components and can be divided as such: `x|xxx|xxxx|xx|x
 
 - **The second Component seems to denote the permissions level of the user**  
     `mfd` seems to be endpoints that anyone can access.  
-    `mfv` seems to be endpoints that require a Geometry Dash Account  
+    `mfv` seems to be endpoints that deal with critical information regarding a user's account
     `mfp` seems to be endpoints for in-game Moderators.  
     `mfx` seems to be endpoints for Admins  
 
