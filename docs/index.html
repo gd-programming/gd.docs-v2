@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GD Documentation</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta property="theme-color" content="#72cf5f">
+  <link rel="stylesheet" href="ProjectCard.css">
+</head>
+
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      // logo: '/assets/gddocs-icon.png',
+      name: 'Geometry Dash Documentation',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 6,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        depth: 6,
+        hideOtherSidebarContent: true
+      },
+      notFoundPage: true,
+
+      tabs: {
+        persist: true,
+        sync: true,
+        theme: "material",
+        tabComments: false,
+        tabHeadings: true
+      }
+
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- The Docs Colour Theme-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <style>
+    /* Custom colour theme. */
+    :root {
+      --mono-hue: 160;
+      --theme-hue: 160;
+      --theme-saturation: 100%;
+      --table-cell-border-width: 1px;
+    }
+  </style>
+
+
+</body>
+
+</html>
