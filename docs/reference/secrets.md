@@ -120,12 +120,14 @@
 ### Admin Secret
 
 > In the client for Geometry Dash 1.9, RobTop mistakenly included the secret for Admin Endpoints inside of a function. This Secret was most likely used by RobTop when he awards levels with a star rating
+  
+<link rel="stylesheet" href="imageStyles.css">
 
 <center>
 <b><u>Below is a screenshot of the Admin Secret being created from Geometry Dash 1.9</u></b><br>
 <img src="/assets/screenshots/admin_secret.png" class="admin">
 
-<style>
+<!-- <style>
 .admin {
   margin: 10px;
   border: 2px solid #344640;
@@ -133,7 +135,7 @@
   padding: 10px;
   background-color: #2D2D2D; 
 }
-</style>
+</style> -->
 Currently, the Admin Secret no longer works as RobTop became aware of it
 </center>
 
