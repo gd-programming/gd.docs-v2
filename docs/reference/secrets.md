@@ -1,6 +1,8 @@
 # Secrets
 
-> Secrets are 11 character strings used to validate if requests to the server were from a Geometry Dash client. Rather than generating a new secret for each request sent to the server, RobTop opted with hardcoing these secrets and slightly obfuscating them instead. 
+> Secrets are 11 character strings used to validate if requests to the server were from a Geometry Dash client. Rather than generating a new secret for each request sent to the server, RobTop opted with hardcoing these secrets and slightly obfuscating them instead to stop people finding them. 
+
+- <b>Below is a table showing all known secrets</b>
 
 ### Table of Secrets
 
@@ -13,7 +15,7 @@
 | `Wmfx2878gb9` | Admin   |
 
 ### Secret Types
-<u>**As of Geometry Dash version 2.113, there are 4 publicly known secrets**</u>
+<u>**As of Geometry Dash version 2.113, there are 4 *publicly* known secrets**</u>
 
 - Common Secret
 - Account Secret
@@ -21,7 +23,7 @@
 - Mod Secret
 
 **<h3><u>Common Secret</u></h3>**  
-> As of Geometry Dash 2.113, there are <u>41</u> endpoints on the server which use the Common Secret. Below is a table of all known endpoints which use the common Secret.
+> As of Geometry Dash 2.113, there are <u>41</u> endpoints on the server which use the `Common Secret`. Below is a table of all known endpoints which use the Common Secret.
 
 <details close>
 <summary><u>Endpoints</u></summary>
@@ -75,7 +77,7 @@
 </details>  
 
 **<h3><u>Account Secret</u></h3>**  
-> As of Geometry Dash 2.113, there are 5 endpoints which use the Account Secret. The Account Secret was created for endpoints that deal with account management. Below is a table of each endpoint which uses the Account Secret.
+> As of Geometry Dash 2.113, there are 5 endpoints which use the `Account Secret`. The Account Secret was created for endpoints that deal with <u>important account features such as save data and privacy settings</u>. Below is a table of each endpoint which uses the Account Secret.
 
 <details close>
 <summary><u>Endpoints</u></summary>
@@ -92,7 +94,7 @@
 </details>
 
 **<h3><u>Level Secret</u></h3>**  
-> As of Geometry Dash 2.113, there is only a single endpoint that uses the Level Secret. The Level Secret is used to handle level deletions. Below you can find the endpoint which uses the Level Secret
+> As of Geometry Dash 2.113, there is only a single endpoint that uses the `Level Secret`. The Level Secret is used to handle level deletions. Below you can find the endpoint which uses the Level Secret
 
 <details close>
 <summary><u>Endpoints</u></summary>
@@ -104,7 +106,7 @@
 </details>
 
 **<h3><u>Mod Secret</u></h3>**  
-> As of Geometry Dash 2.113, there are only 2 endpoints which use the Mod Secret. These endpoints allow hand-picked users called moderators to send in-game levels to the server which then have a chance to earn a star rating. Below are the endpoints
+> As of Geometry Dash 2.113, there are only 2 endpoints which use the `Mod Secret`. These endpoints allow hand-picked users called moderators to send in-game levels to the server which then have a chance to earn a star rating. Below are the endpoints in question.
 
 <details close>
 <summary><u>Endpoints</u></summary>
@@ -119,12 +121,12 @@
 
 ### Admin Secret
 
-> In the client for Geometry Dash 1.9, RobTop mistakenly included the secret for Admin Endpoints inside of a function. This Secret was most likely used by RobTop when he awards levels with a star rating
+> In the client for Geometry Dash 1.9, RobTop mistakenly included the secret for `Admin Endpoints` inside of a function. Admin Endpoints are only accessible for game admins and they make direct changes in-game that affect everyone.
   
 <link rel="stylesheet" href="imageStyles.css">
 
 <center>
-<b><u>Below is a screenshot of the Admin Secret being created from Geometry Dash 1.9</u></b><br>
+<b><u>Below is a screenshot of the Admin Secret being created from Geometry Dash 1.9. RobTop split it into 6 segments to <i>obfuscate</i> it.</u></b><br>
 <img src="/assets/screenshots/admin_secret.png" class="admin">
 
 Currently, the Admin Secret no longer works as RobTop became aware of it
@@ -134,23 +136,29 @@ Currently, the Admin Secret no longer works as RobTop became aware of it
 
 ### Secret Structure
 
-A Secret is split into 5 Components and can be divided as such: `x|xxx|xxxx|xx|x`. From analysing the available secrets that we have access too, we have a general idea of what each component may represent
+A Secret is split into 5 components and can be divided as such: `x|xxx|xxxx|xx|x`. From analysing the available secrets that we have access too, we have a general idea of what each component may represent.
 
-> **Note:** The following is based on analysis using the endpoints the secret has as well as the status in the community required to access them. None of the information below has been proven
+> **Note:** <i>The following is based on analysis using the endpoints the secret is used by as well as the status in the community one is required to have in order to access them. <b><u>None of the information below has been proven</u></b></i>
 
-- **The first Component of a Secret is always a `W`**
+- **The first component of a Secret is always a `W`**
 
-- **The second Component seems to denote the permissions level of the user**  
-    `mfd` seems to be endpoints that anyone can access.  
-    `mfv` seems to be endpoints that deal with critical information regarding a user's account
-    `mfp` seems to be endpoints for in-game Moderators.  
-    `mfx` seems to be endpoints for Admins  
+- **The second component seems to denote the permissions level of the user**  
+    `mfd` seems to be endpoints that anyone can use.  
+    `mfv` seems to be endpoints that anyone can use but, they handle important information regarding a users account - save data and levels.  
+    `mfp` seems to be endpoints that are restricted to a select few individuals - Geometry Dash Moderators.  
+    `mfx` seems to be endpoints that are restricted to everyone except Game Admins.  
 
-- **The third component is a 4-digit number which it's purpose is unknown**
+- **The third component is a 4-digit number which it's purpose is unknown**  
+    `2893`  
+    `3899`  
+    `2898`  
+    `3879`  
+    `2878`
+
 
 - **The fourth component seems denote the purpose of the secret.**  
-    `gb` being general use  
-    `gc` being specialised use
+    `gb` seems to be <u>general use</u>.  
+    `gc` Seems to be <u>specialised use</u> - managing accounts, sending levels, deleting levels.
 
 - **The fifth component seems to be overall power the endpoints have.**  
     `3` being able to submit data that can greatly affect in-game levels  
