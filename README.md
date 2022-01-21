@@ -7,10 +7,10 @@
 
 To host this project on your local device, you will need to following:
 
-- [Node.js](/)
-    - [Docsify](/)  
+- [Node.js](https://nodejs.org/en/)
+    - docsify-cli
 
-> To install docsify, enter the following into the terminal
+> To install docsify-cli, enter the following into the terminal
 > ```
 > npm i docsify-cli -g
 > ```
