@@ -1,0 +1,23 @@
+{
+  "name": "gd-docs-v2",
+  "version": "1.0.0",
+  "description": "Documentation for Geometry Dash",
+  "main": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "prepare": "npm i docsify-cli -g",
+    "start": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gd-programming/GD-Docs-v2.git"
+  },
+  "author": "GD Programming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gd-programming/GD-Docs-v2/issues"
+  },
+  "homepage": "https://github.com/gd-programming/GD-Docs-v2#readme"
+}
