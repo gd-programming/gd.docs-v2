@@ -29,4 +29,4 @@ The character which the `_` represents can be 1 of 9 different keys
 | `<co>`    | `0xFF5A4B`  | <co>Sample</co>              |
 | `<cr>`    | `0xFF5A5A`  | <cr>Sample</cr>              |
 | `<cp>`    | `0xFF00FF`  | <cp>Sample</cp>              |
-| `Default` | `0xFF0000`  | <c_>Sample</c_>              |
+| `Default` | `0xFF0000`  | <cDefault>Sample</cDefault>  |
