@@ -19,14 +19,14 @@ The character which the `_` represents can be 1 of 9 different keys
 
 <link rel="stylesheet" href="colour_tags.css">
 
-| Tag       | Colour Code | Example (Local Website Only) |
-| :-------- | :---------- | :--------------------------- |
-| `<cb>`    | `0x4A52E1`  | <cb>Sample</cb>              |
-| `<cg>`    | `0x40E348`  | <cg>Sample</cg>              |
-| `<cl>`    | `0x60ABEF`  | <cl>Sample</cg>              |
-| `<cj>`    | `0x32C8FF`  | <cj>Sample</cj>              |
-| `<cy>`    | `0xFFFF00`  | <cy>Sample</cy>              |
-| `<co>`    | `0xFF5A4B`  | <co>Sample</co>              |
-| `<cr>`    | `0xFF5A5A`  | <cr>Sample</cr>              |
-| `<cp>`    | `0xFF00FF`  | <cp>Sample</cp>              |
-| `Default` | `0xFF0000`  | <cDefault>Sample</cDefault>  |
+| Tag       | Colour Code | Example (Local Website Only)                           |
+| :-------- | :---------- | :----------------------------------------------------- |
+| `<cb>`    | `0x4A52E1`  | <cb>Sample</cb>                                        |
+| `<cg>`    | `0x40E348`  | <cg>Sample</cg>                                        |
+| `<cl>`    | `0x60ABEF`  | <cl>Sample</cg>                                        |
+| `<cj>`    | `0x32C8FF`  | <cj>Sample</cj>                                        |
+| `<cy>`    | `0xFFFF00`  | <cy>Sample</cy>                                        |
+| `<co>`    | `0xFF5A4B`  | <co>Sample</co>                                        |
+| `<cr>`    | `0xFF5A5A`  | <cr>Sample</cr>                                        |
+| `<cp>`    | `0xFF00FF`  | <cp>Sample</cp>                                        |
+| `Default` | `0xFF0000`  | <ccDefault>Sample</ccDefault> <!-- Ha Ha funny joke--> |
