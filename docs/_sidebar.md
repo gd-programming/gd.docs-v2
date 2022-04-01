@@ -8,6 +8,11 @@
 
 **Resources**
 
+- [Endpoints]()
+    - [Important Information](/endpoints/generic)
+    - [Levels]()
+        - [deleteGJLevelUser20](/endpoints/deleteGJLevelUser20.md)
+
 **Topics**
 
 - [Client]()
