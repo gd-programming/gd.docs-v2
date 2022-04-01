@@ -9,7 +9,7 @@
 ## Colour Tags
 
 <link rel="stylesheet" href="imageStyles.css">
-<img src="assets/screenshots/colour_tags.png" class="alertlayer">
+<img src="https://raw.githubusercontent.com/gd-programming/GD-Docs-v2/main/docs/assets/screenshots/colour_tags.png" class="alertlayer">
 
 > Colour Tags are used to style areas of text with colour. They contain both a start and an end tag - the start tag defining which colour should be rendered on screen and the end tag denoting when to stop reading. 
 

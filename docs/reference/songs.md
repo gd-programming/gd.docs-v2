@@ -79,6 +79,6 @@
 <center>
 <p><b>In 2019, Google removed various Geometry Dash clients from their playstore and RobTop accidentally uploaded a development build of update 2.2 when resolving the issue. In the game files, 2 new songs can be found.<br>
 <u>Explorers by Hinkik</u> and <u>Firebird by MDK</u></br></p>
-<img src="assets/screenshots/leaked_songs.png" class="admin"><br>
+<img src="https://raw.githubusercontent.com/gd-programming/GD-Docs-v2/main/docs/assets/screenshots/leaked_songs.PNG" class="admin"><br>
 <i>Firebird was confirmed by RobTop to be fake however, another MDK song was confirmed to be in the update with the codename: <a href="https://www.youtube.com/watch?v=ipK7vQ8gEZw">Dash</a></i>
 </center>

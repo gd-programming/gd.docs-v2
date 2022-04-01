@@ -127,7 +127,7 @@
 
 <center>
 <b><u>Below is a screenshot of the Admin Secret being created from Geometry Dash 1.9. RobTop split it into 6 segments to <i>obfuscate</i> it.</u></b><br>
-<img src="assets/screenshots/admin_secret.png" class="admin">
+<img src="https://raw.githubusercontent.com/gd-programming/GD-Docs-v2/main/docs/assets/screenshots/admin_secret.png" class="admin">
 
 Currently, the Admin Secret no longer works as RobTop became aware of it
 </center>
