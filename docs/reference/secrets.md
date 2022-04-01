@@ -30,48 +30,48 @@
 
 <table>
     <tr><th><center>Endpoint</center></th></tr>
-   <tr><td><a href="/#/endpoints/account/getAccountURL">http://www.boomlings.com/database/getAccountURL.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/acceptGJFriendRequest20">http://www.boomlings.com/database/acceptGJFriendRequest20.php</a></td></tr>  
-    <tr><td><a href="/#/endpoints/social/blockGJUser20">http://www.boomlings.com/database/blockGJUser20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/comment/deleteGJAccComment20">http://www.boomlings.com/database/deleteGJAccComment20.php</a></td></tr>        
-    <tr><td><a href="/#/endpoints/comment/deleteGJComment20">http://www.boomlings.com/database/deleteGJComment20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/deleteGJFriendRequests20">http://www.boomlings.com/database/deleteGJFriendRequests20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/deleteGJMessages20">http://www.boomlings.com/database/deleteGJMessages20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/downloadGJLevel22">http://www.boomlings.com/database/downloadGJLevel22.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/downloadGJMessage20">http://www.boomlings.com/database/downloadGJMessage20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/comment/getGJAccountComments20">http://www.boomlings.com/database/getGJAccountComments20.php</a></td></tr>    
-    <tr><td><a href="/#/endpoints/misc/getGJChallenges">http://www.boomlings.com/database/getGJChallenges.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/comment/getGJCommentHistory">http://www.boomlings.com/database/getGJCommentHistory.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/comment/getGJComments21">http://www.boomlings.com/database/getGJComments21.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/getGJDailyLevel">http://www.boomlings.com/database/getGJDailyLevel.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/getGJFriendRequests20">http://www.boomlings.com/database/getGJFriendRequests20.php</a></td></tr>      
-    <tr><td><a href="/#/endpoints/level/getGJGauntlets21">http://www.boomlings.com/database/getGJGauntlets21.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/getGJLevelScores211">http://www.boomlings.com/database/getGJLevelScores211.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/getGJLevels21">http://www.boomlings.com/database/getGJLevels21.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/getGJMapPacks21">http://www.boomlings.com/database/getGJMapPacks21.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/getGJMessages20">http://www.boomlings.com/database/getGJMessages20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/misc/getGJRewards">http://www.boomlings.com/database/getGJRewards.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/account/getGJScores20">http://www.boomlings.com/database/getGJScores20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/getGJSongInfo">http://www.boomlings.com/database/getGJSongInfo.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/misc/getGJTopArtists">http://www.boomlings.com/database/getGJTopArtists.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/getGJUserList20">http://www.boomlings.com/database/getGJUserList20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/account/getGJUsers20">http://www.boomlings.com/database/getGJUsers20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/misc/getSaveData">http://www.boomlings.com/database/getSaveData.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/misc/likeGJItem211">http://www.boomlings.com/database/likeGJItem211.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/rateGJStars211">http://www.boomlings.com/database/rateGJStars211.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/readGJFriendRequest20">http://www.boomlings.com/database/readGJFriendRequest20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/removeGJFriend20">http://www.boomlings.com/database/removeGJFriend20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/reportGJLevel">http://www.boomlings.com/database/reportGJLevel.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/misc/requestUserAccess">http://www.boomlings.com/database/requestUserAccess.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/account/restoreGJItems">http://www.boomlings.com/database/restoreGJItems.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/unblockGJUser20">http://www.boomlings.com/database/unblockGJUser20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/updateGJDesc20">http://www.boomlings.com/database/updateGJDesc20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/account/updateGJUserScore22">http://www.boomlings.com/database/updateGJUserScore22.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/uploadFriendRequest20">http://www.boomlings.com/database/uploadFriendRequest20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/comment/uploadGJAccComment20">http://www.boomlings.com/database/uploadGJAccComment20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/comment/uploadGJComment21">http://www.boomlings.com/database/uploadGJComment21.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/uploadGJLevel21">http://www.boomlings.com/database/uploadGJLevel21.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/uploadGJMessage20">http://www.boomlings.com/database/uploadGJMessage20.php</a></td></tr>
+   <tr><td><a href="/docs/#/endpoints/account/getAccountURL">http://www.boomlings.com/database/getAccountURL.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/acceptGJFriendRequest20">http://www.boomlings.com/database/acceptGJFriendRequest20.php</a></td></tr>  
+    <tr><td><a href="/docs/#/endpoints/social/blockGJUser20">http://www.boomlings.com/database/blockGJUser20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/comment/deleteGJAccComment20">http://www.boomlings.com/database/deleteGJAccComment20.php</a></td></tr>        
+    <tr><td><a href="/docs/#/endpoints/comment/deleteGJComment20">http://www.boomlings.com/database/deleteGJComment20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/deleteGJFriendRequests20">http://www.boomlings.com/database/deleteGJFriendRequests20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/deleteGJMessages20">http://www.boomlings.com/database/deleteGJMessages20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/downloadGJLevel22">http://www.boomlings.com/database/downloadGJLevel22.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/downloadGJMessage20">http://www.boomlings.com/database/downloadGJMessage20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/comment/getGJAccountComments20">http://www.boomlings.com/database/getGJAccountComments20.php</a></td></tr>    
+    <tr><td><a href="/docs/#/endpoints/misc/getGJChallenges">http://www.boomlings.com/database/getGJChallenges.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/comment/getGJCommentHistory">http://www.boomlings.com/database/getGJCommentHistory.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/comment/getGJComments21">http://www.boomlings.com/database/getGJComments21.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/getGJDailyLevel">http://www.boomlings.com/database/getGJDailyLevel.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/getGJFriendRequests20">http://www.boomlings.com/database/getGJFriendRequests20.php</a></td></tr>      
+    <tr><td><a href="/docs/#/endpoints/level/getGJGauntlets21">http://www.boomlings.com/database/getGJGauntlets21.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/getGJLevelScores211">http://www.boomlings.com/database/getGJLevelScores211.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/getGJLevels21">http://www.boomlings.com/database/getGJLevels21.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/getGJMapPacks21">http://www.boomlings.com/database/getGJMapPacks21.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/getGJMessages20">http://www.boomlings.com/database/getGJMessages20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/misc/getGJRewards">http://www.boomlings.com/database/getGJRewards.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/account/getGJScores20">http://www.boomlings.com/database/getGJScores20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/getGJSongInfo">http://www.boomlings.com/database/getGJSongInfo.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/misc/getGJTopArtists">http://www.boomlings.com/database/getGJTopArtists.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/getGJUserList20">http://www.boomlings.com/database/getGJUserList20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/account/getGJUsers20">http://www.boomlings.com/database/getGJUsers20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/misc/getSaveData">http://www.boomlings.com/database/getSaveData.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/misc/likeGJItem211">http://www.boomlings.com/database/likeGJItem211.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/rateGJStars211">http://www.boomlings.com/database/rateGJStars211.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/readGJFriendRequest20">http://www.boomlings.com/database/readGJFriendRequest20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/removeGJFriend20">http://www.boomlings.com/database/removeGJFriend20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/reportGJLevel">http://www.boomlings.com/database/reportGJLevel.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/misc/requestUserAccess">http://www.boomlings.com/database/requestUserAccess.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/account/restoreGJItems">http://www.boomlings.com/database/restoreGJItems.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/unblockGJUser20">http://www.boomlings.com/database/unblockGJUser20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/updateGJDesc20">http://www.boomlings.com/database/updateGJDesc20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/account/updateGJUserScore22">http://www.boomlings.com/database/updateGJUserScore22.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/uploadFriendRequest20">http://www.boomlings.com/database/uploadFriendRequest20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/comment/uploadGJAccComment20">http://www.boomlings.com/database/uploadGJAccComment20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/comment/uploadGJComment21">http://www.boomlings.com/database/uploadGJComment21.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/uploadGJLevel21">http://www.boomlings.com/database/uploadGJLevel21.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/social/uploadGJMessage20">http://www.boomlings.com/database/uploadGJMessage20.php</a></td></tr>
 </table>
 
 </details>  
@@ -84,11 +84,11 @@
 
 <table>
     <tr><th><center>Endpoint</center></th></tr>
-    <tr><td><a href="/#/endpoints/account/registerGJAccount">http://www.boomlings.com/database/accounts/registerGJAccount.php</a></td></tr>     
-    <tr><td><a href="/#/endpoints/account/loginGJAccount">http://www.boomlings.com/database/accounts/loginGJAccount.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/account/syncGJAccountNew">http://geometrydash.com/database/accounts/syncGJAccountNew.php</a></td></tr>        
-    <tr><td><a href="/#/endpoints/account/backupGJAccountNew">http://geometrydash.com/database/accounts/backupGJAccountNew.php</a></td></tr>    
-    <tr><td><a href="/#/endpoints/account/updateGJAccSettings20">http://www.boomlings.com/database/updateGJAccSettings20.php</a></td></tr>    
+    <tr><td><a href="/docs/#/endpoints/account/registerGJAccount">http://www.boomlings.com/database/accounts/registerGJAccount.php</a></td></tr>     
+    <tr><td><a href="/docs/#/endpoints/account/loginGJAccount">http://www.boomlings.com/database/accounts/loginGJAccount.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/account/syncGJAccountNew">http://geometrydash.com/database/accounts/syncGJAccountNew.php</a></td></tr>        
+    <tr><td><a href="/docs/#/endpoints/account/backupGJAccountNew">http://geometrydash.com/database/accounts/backupGJAccountNew.php</a></td></tr>    
+    <tr><td><a href="/docs/#/endpoints/account/updateGJAccSettings20">http://www.boomlings.com/database/updateGJAccSettings20.php</a></td></tr>    
 </table>
 
 </details>
@@ -101,7 +101,7 @@
 
 <table>
     <tr><th><center>Endpoint</center></th></tr>
-    <tr><td><a href="/#/endpoints/level/deleteGJLevelUser20">http://www.boomlings.com/database/deleteGJLevelUser20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/deleteGJLevelUser20">http://www.boomlings.com/database/deleteGJLevelUser20.php</a></td></tr>
     </table>
 </details>
 
@@ -113,8 +113,8 @@
 
 <table>
     <tr><th><center>Endpoint</center></th></tr>
-    <tr><td><a href="/#/endpoints/level/rateGJDemon21">http://www.boomlings.com/database/rateGJDemon21.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/level/suggestGJStars20">http://www.boomlings.com/database/suggestGJStars20.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/rateGJDemon21">http://www.boomlings.com/database/rateGJDemon21.php</a></td></tr>
+    <tr><td><a href="/docs/#/endpoints/level/suggestGJStars20">http://www.boomlings.com/database/suggestGJStars20.php</a></td></tr>
     </table>
 </details>
 
