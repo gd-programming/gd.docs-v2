@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/gd-programming/GD-Docs-v2/issues"
   },
-  "homepage": "https://github.com/gd-programming/GD-Docs-v2#readme"
+  "homepage": "https://github.com/gd-programming/GD-Docs-v2#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
 }
