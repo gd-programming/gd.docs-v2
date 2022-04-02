@@ -11,7 +11,10 @@
 - [Endpoints]()
     - [Important Information](/endpoints/generic)
     - [Levels]()
-        - [deleteGJLevelUser20](/endpoints/level/deleteGJLevelUser20.md)
+    - [Accounts]()
+        - [LoginGJAccount](/endpoints/account/loginGJAccount.md)
+    - [Social]()
+        - [UploadFriendRequest](/endpoints/social/uploadFriendRequest20.md)
 
 **Topics**
 
