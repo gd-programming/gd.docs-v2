@@ -6,11 +6,11 @@
 
 | Parameter  | Explanation                                                                                           | Optional |
 | :--------- | :---------------------------------------------------------------------------------------------------- | :------- |
-| `udid`     | [The user's Universal Unique Identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier) | False    |
-| `username` | The username for the account the player is trying to log into                                         | False    |
-| `password` | The plaintext password for the account the player is trying to log into                               | False    |
-| `sID`      | The player's steam ID                                                                                 | True     |
-| `secret`   | Account Secret: `Wmfv3899gc9`                                                                         | False    |
+| `udid`     | [The user's Universal Unique Identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier) | `False`  |
+| `username` | The username for the account the player is trying to log into                                         | `False`  |
+| `password` | The plaintext password for the account the player is trying to log into                               | `False`  |
+| `sID`      | The player's steam ID                                                                                 | `True`   |
+| `secret`   | Account Secret: `Wmfv3899gc9`                                                                         | `False`  |
 
 <b>Note</b>  
 the `sID` parameter is only sent to the servers if the player is logging into their account from the steam release of Geometry Dash. From what has been observed, it has not been utilised.
