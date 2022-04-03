@@ -34,7 +34,7 @@
 
 ### **Static**
 ```js
-function XOR(key, string) {
+function xor_static(key, string) {
     let result = '';
     for (let i = 0; i < string.length; i++) {
         let input = string.charCodeAt(i);
@@ -46,11 +46,11 @@ function XOR(key, string) {
 
 ### **Cycle**
 ```js
-function XOR(key, string) {
+function xor_cycle(key, string) {
     let result = '';
     for (let i = 0; i < string.length; i++) {
         let input = string.charCodeAt(i);
-        let xKey = key.charCodeAt(i)
+        let xKey = key.charCodeAt(i % key.length)
         result += String.fromCharCode(input ^ xKey);
     }
     return result;
