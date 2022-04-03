@@ -5,7 +5,6 @@ axios.defaults.headers.common["User-Agent"] = "";
 const MAIN_SERVER = "http://www.boomlings.com/database/";
 const DATA_SERVER = "http://www.robtopgames.net/database/accounts/";
 
-
 // Private function
 async function post(endpoint, params, useDataServer = false)
 {
@@ -23,3 +22,23 @@ async function logRequest(endpoint, params, useDataServer = false)
     }
 }
 
+function xor_cycle(key, string) {
+    let result = '';
+    for (let i = 0; i < string.length; i++) {
+        let input = string.charCodeAt(i);
+        let xKey = key.charCodeAt(i % key.length)
+        result += String.fromCharCode(input ^ xKey);
+    }
+    return result;
+}
+
+function robtop_encode(key, str)
+{
+    return new Buffer.from(xor_cycle(key, str), 'ASCII').toString("base64");
+}
+
+function robtop_decode(key, str)
+{
+    return xor_cycle(key, new Buffer.from(str, "base64").toString("ASCII"))
+}
+// GJP key: 37526
