@@ -2,6 +2,30 @@
 const axios = require('axios');
 axios.defaults.headers.common["User-Agent"] = "";
 
+const SECRETS = {
+    common: "Wmfd2893gb7",
+    account: "Wmfv3899gc9",
+    level: "Wmfv2898gc9",
+    mod: "Wmfp3879gc3",
+    admin: "Wmfx2878gb9"
+};
+
+const KEYS = {
+    save: 11,
+    messages:14251,
+    vault: 19283,
+    challenges: 19847,
+    level_password:26364,
+    comment: 29481,
+    account_password: 37526,
+    level_leaderboard: 39673,
+    level: 41274,
+    load_data: 48291,
+    rating: 58281,
+    chests: 59182,
+    stats: 85271
+};
+
 const MAIN_SERVER = "http://www.boomlings.com/database/";
 const DATA_SERVER = "http://www.robtopgames.net/database/accounts/";
 
@@ -26,7 +50,7 @@ function xor_cycle(key, string) {
     let result = '';
     for (let i = 0; i < string.length; i++) {
         let input = string.charCodeAt(i);
-        let xKey = key.charCodeAt(i % key.length)
+        let xKey = key.toString().charCodeAt(i % key.toString().length)
         result += String.fromCharCode(input ^ xKey);
     }
     return result;
