@@ -2,7 +2,7 @@
 
 > This endpoint is used to delete friend requests that the player may have recieved from other players
 
-# Parameters
+## Parameters
 
 | Parameter         | Explanation                                                                         | Optional |
 | :---------------- | :---------------------------------------------------------------------------------- | -------- |
