@@ -11,6 +11,7 @@
 | `gdw`           | If the player is using Geometry Dash World                 | `True`   |
 | `page`          | The page currently being viewed                            | `True`   |
 | `total`         | The total friend requests recieved                         | `True`   |
+| `getSent`       | If the server should fetch requests sent by the player     | `True`   |
 | `accountID`     | The player's account ID                                    | `False`  |
 | `gjp`           | The player's password encrypted with xor cipher and base64 | `False`  |
 | `secret`        | The common secret: `Wmfd2893gb7`                           | `False`  |
