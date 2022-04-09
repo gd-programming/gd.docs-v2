@@ -24,6 +24,6 @@ def common_parse_to_dict(data: str, extras: bool = False) -> list:
         parsed.append(obj)
 
     # if the list should include metadata, hashes, etc...
-    if extras: parsed.append(components[1:len(components)])
+    if extras: parsed.append(components[1:-1])
 
     return parsed
