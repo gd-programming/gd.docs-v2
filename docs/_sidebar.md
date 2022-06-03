@@ -14,6 +14,7 @@
     - [Accounts]()
         - [LoginGJAccount](/endpoints/account/loginGJAccount.md)
     - [Social]()
+        - [AcceptGJFriendRequest](/endpoints/social/acceptGJFriendRequest20.md)
         - [DeleteGJFriendRequest](/endpoints/social/deleteGJFriendRequests20.md)
         - [GetGJFriendRequest](/endpoints/social/getGJFriendRequests20.md)
         - [ReadGJFriendRequest](/endpoints/social/readGJFriendRequest20.md)

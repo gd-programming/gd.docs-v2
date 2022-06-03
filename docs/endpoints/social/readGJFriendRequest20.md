@@ -16,8 +16,6 @@
 
 ## Response
 
-Unlike other endpoints, the responses for reading friend requests are very simple
-
 <b>Successful Request</b>
 
 ```py

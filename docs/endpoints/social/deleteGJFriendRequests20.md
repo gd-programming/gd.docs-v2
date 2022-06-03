@@ -19,8 +19,6 @@
 
 ## Response
 
-Unlike other endpoints, the responses for declining friend requests are very simple
-
 <b>Successful Request</b>
 
 ```py
