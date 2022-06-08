@@ -13,6 +13,7 @@
     - [Levels]()
     - [Accounts]()
         - [LoginGJAccount](/endpoints/account/loginGJAccount.md)
+        - [RegisterGJAccount](/endpoints/account/registerGJAccount.md)
     - [Social]()
         - [AcceptGJFriendRequest](/endpoints/social/acceptGJFriendRequest20.md)
         - [DeleteGJFriendRequest](/endpoints/social/deleteGJFriendRequests20.md)
