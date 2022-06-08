@@ -9,7 +9,7 @@
 | `userName` | The username of the account to create | `False` |
 | `password` | The password of the account to create | `False` |
 | `email` | The email of the account to create | `False` |
-| `secret` | Wmfv3899gc9 | `False` |
+| `secret` | Account Secret: `Wmfv3899gc9` | `False` |
 
 ## Response
 
@@ -23,5 +23,11 @@
 
 | Error Code | Meaning |
 | --- | --- |
-| -2 | Already taken |
-| -4 | Longer than 20 characters |
+| -1 | Generic Error |
+| -2 | Username taken |
+| -3 | Email taken |
+| -4 | Username is longer than 20 characters |
+| -5 | Invalid Password |
+| -6 | Invalid Email |
+| -8 | Password to short |
+| -9 | Username to short |
