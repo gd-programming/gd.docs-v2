@@ -22,8 +22,16 @@
 
 **Topics**
 
+- [Algorithms]()
+    - [Base64](/topics/Algorithms/base64.md)
+
 - [Client]()
     - [Tags](/Topics/client/tags)
     - [Cocos2d-x](/Topics/client/cocos2d-x)
-- [Algorithms]()
-    - [Base64](/topics/Algorithms/base64.md)
+
+- [Enums](/enums/enums.md)
+    - [Client](/enums/enums.md)
+        - [GJHttpType](/enums/client/GJHttpType.md)
+    - [Server](/enums/enums.md)
+        - [AccountError](/enums/server/AccountError.md)
+        - [BackupAccountError](/enums/server/BackupAccountError.md)

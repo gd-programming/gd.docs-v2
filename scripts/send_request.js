@@ -65,4 +65,3 @@ function robtop_decode(key, str)
 {
     return xor_cycle(key, new Buffer.from(str, "base64").toString("ASCII"))
 }
-// GJP key: 37526
