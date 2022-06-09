@@ -13,6 +13,7 @@
     - [Levels]()
     - [Accounts]()
         - [LoginGJAccount](/endpoints/account/loginGJAccount.md)
+        - [RegisterGJAccount](/endpoints/account/registerGJAccount.md)
     - [Social]()
         - [AcceptGJFriendRequest](/endpoints/social/acceptGJFriendRequest20.md)
         - [DeleteGJFriendRequest](/endpoints/social/deleteGJFriendRequests20.md)
@@ -29,9 +30,14 @@
     - [Tags](/Topics/client/tags)
     - [Cocos2d-x](/Topics/client/cocos2d-x)
 
+- [Algorithms]()
+    - [Base64](/topics/Algorithms/base64.md)
+
+
 - [Enums](/enums/enums.md)
     - [Client](/enums/enums.md)
         - [GJHttpType](/enums/client/GJHttpType.md)
     - [Server](/enums/enums.md)
         - [AccountError](/enums/server/AccountError.md)
         - [BackupAccountError](/enums/server/BackupAccountError.md)
+
