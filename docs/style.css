@@ -1,0 +1,23 @@
+/* Custom colour theme. */
+:root {
+    --mono-hue: 160;
+    --theme-hue: 160;
+    --theme-saturation: 100%;
+    --table-cell-border-width: 1px;
+    --table-head-border-width: 1px;
+    --table-head-background: #17201e;
+}
+
+details > summary:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transition: 0.1s;
+    border-radius: 0.2em;
+}
+
+details[open] {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+details[open] > *:not(summary) {
+    margin: 0.5em;
+}
