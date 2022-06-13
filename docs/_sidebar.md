@@ -11,6 +11,7 @@
 - [Endpoints]()
     - [Important Information](/endpoints/generic)
     - [Levels]()
+        - [getGJLevels21](/endpoints/level/getGJLevels21)
     - [Accounts]()
         - [LoginGJAccount](/endpoints/account/loginGJAccount.md)
         - [RegisterGJAccount](/endpoints/account/registerGJAccount.md)
