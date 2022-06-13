@@ -7,7 +7,6 @@
     "doc": "docs"
   },
   "scripts": {
-    "prepare": "npm i docsify-cli -g",
     "start": "docsify serve docs"
   },
   "repository": {
@@ -21,6 +20,7 @@
   },
   "homepage": "https://github.com/gd-programming/GD-Docs-v2#readme",
   "dependencies": {
-    "axios": "^0.26.1"
+    "axios": "^0.26.1",
+    "docsify-cli": "^4.4.4"
   }
 }
