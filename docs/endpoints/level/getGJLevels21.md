@@ -7,8 +7,8 @@
 | Parameter | Description | Required |
 | - | - | - |
 | `secret` | [Common secret](/reference/secrets.md) `Wmfd2893gb7` | Yes |
-| `gameVersion` | [Game Version](), 21 on 2.1 | |
-| `binaryVersion` | [Binary Version](), 35 on 2.113 | |
+| `gameVersion` | [Game Version](#), 21 on 2.1 | |
+| `binaryVersion` | [Binary Version](#), 35 on 2.113 | |
 | `type` | Search type, [see values](#type). Defaults to most liked | |
 | `str` | Search query, user ID or level list depending on `type` | Only on types 5 and 10 |
 | `page` | Which page to request, defaults to 0 | |
@@ -110,10 +110,10 @@ where:
 - `levels` is a list of [Level Objects](#) separated by `|`
 - `creators` is a list of creators separated by `|`, each in the format `userID:username:accountID`
 - `songs` is a list of [Song Objects](#) separated by `~:~`
-- `page info` is in the format `pages:index:count` where:
-    - `pages` - total number of pages
-    - `index` - current page 
-    - `count` - number of elements in the current page
+- `page info` is in the format `total:offset:amount` where:
+    - `total` - total number of levels for the query
+    - `offset` - offset from which the current page starts
+    - `amount` - number of levels per page (always 10 for the gd servers)
 - `hash` is a hash of every level, see [Hashes](#)
 <!-- should the hash be explained here or on its own page like how the old docs had a page for CHK -->
 
@@ -129,7 +129,7 @@ request({
     data: {
         secret: "Wmfd2893gb7",
         str: "bloodbath",
-        star: "1"
+        star: "1",
         type: "0"
     }
 })
