@@ -30,7 +30,7 @@ for (i = 0; i < input.length; i++) {
 result = "";
 for (i = 0; i < input.length; i++) {
   byte = input[i].toByte();
-  xKey = i % key.length;
+  xKey = (i % key.length).toByte();
   result += (byte ^ xKey).toChar();
 }
 ```
