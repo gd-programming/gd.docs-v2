@@ -15,17 +15,17 @@
 | `accounts`        | Account IDs seperated by `,` for users the player is declining friend requests from | `True`   |
 | `isSender`        | If the player is the sender of this friend request                                  | `True`   |
 
-<b>Note:</b> `isSender` must be set to `1` if you are deleting a request you have sent</b>
+**Note:** `isSender` must be set to `1` if you are deleting a request you have sent
 
 ## Response
 
-<b>Successful Request</b>
+**Successful Request**
 
 ```py
 1
 ```
 
-<b>Failed Request</b>
+**Failed Request**
 
 ```py
 -1

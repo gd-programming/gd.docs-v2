@@ -2,7 +2,7 @@
 
 > XOR is a bitwise operation used by Geometry Dash to encrypt data. It is commonly denoted as a `^` in many programming languages
 
-- <b>Geometry Dash has 2 methods to encrypting data using XOR</b>
+- **Geometry Dash has 2 methods to encrypting data using XOR**
   - Using a singular key
   - Cycling through a 5 digit key
 
@@ -41,7 +41,7 @@ for (i = 0; i < input.length; i++) {
 
 | Key     | Usage                       | XOR Type |
 | :------ | :-------------------------- | :------- |
-| `11`    | Player Save Data            | Singlar  |
+| `11`    | Player Save Data            | Singular |
 | `14251` | Player Messages             | Cycled   |
 | `19283` | Vault Codes                 | Cycled   |
 | `19847` | Daily Challenges            | Cycled   |
@@ -51,6 +51,6 @@ for (i = 0; i < input.length; i++) {
 | `39673` | Level Leaderboard Integrity | Cycled   |
 | `41274` | Level Integrity             | Cycled   |
 | `48291` | Load Data                   | Cycled   |
-| `58281` | Rating Integry              | Cycled   |
+| `58281` | Rating Integrity            | Cycled   |
 | `59182` | Chest Rewards               | Cycled   |
-| `85271` | Stat submission Integrity   | Cycled   |
+| `85271` | Stat Submission Integrity   | Cycled   |

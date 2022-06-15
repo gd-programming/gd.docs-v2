@@ -2,7 +2,7 @@
 
 > Base64 is a method of encoding data which is widely used in the context of Geometry Dash.
 
-<b>GD uses a variant of Base64 called url safe Base64 which replaces characters that may unintentionally break requests sent to the servers</b>
+**GD uses a variant of Base64 called url safe Base64 which replaces characters that may unintentionally break requests sent to the servers**
 
 ## Table of characters
 

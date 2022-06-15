@@ -2,7 +2,7 @@
 
 > Secrets are 11 character strings used to validate if requests to the server were from a Geometry Dash client. Rather than generating a new secret for each request sent to the server, RobTop opted with hardcoing these secrets and slightly obfuscating them instead to stop people finding them. 
 
-- <b>Below is a table showing all known secrets</b>
+- **Below is a table showing all known secrets**
 
 ### Table of Secrets
 
@@ -22,7 +22,8 @@
 - Level Secret
 - Mod Secret
 
-**<h3><u>Common Secret</u></h3>**  
+### **<u>Common Secret</u>**
+
 > As of Geometry Dash 2.113, there are <u>41</u> endpoints on the server which use the `Common Secret`. Below is a table of all known endpoints which use the Common Secret.
 
 <details close>
@@ -126,7 +127,7 @@
 <link rel="stylesheet" href="imageStyles.css">
 
 <center>
-<b><u>Below is a screenshot of the Admin Secret being created from Geometry Dash 1.9. RobTop split it into 6 segments to <i>obfuscate</i> it.</u></b><br>
+**<u>Below is a screenshot of the Admin Secret being created from Geometry Dash 1.9. RobTop split it into 6 segments to <i>obfuscate</i> it.</u>**<br>
 <img src="https://raw.githubusercontent.com/gd-programming/GD-Docs-v2/main/docs/assets/screenshots/admin_secret.png" class="admin">
 
 Currently, the Admin Secret no longer works as RobTop became aware of it
@@ -138,7 +139,7 @@ Currently, the Admin Secret no longer works as RobTop became aware of it
 
 A Secret is split into 5 components and can be divided as such: `x|xxx|xxxx|xx|x`. From analysing the available secrets that we have access too, we have a general idea of what each component may represent.
 
-> **Note:** <i>The following is based on analysis using the endpoints the secret is used by as well as the status in the community one is required to have in order to access them. <b><u>None of the information below has been proven</u></b></i>
+> **Note:** *The following is based on analysis using the endpoints the secret is used by as well as the status in the community one is required to have in order to access them. **<u>None of the information below has been proven</u>***
 
 - **The first component of a Secret is always a `W`**
 

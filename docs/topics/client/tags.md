@@ -13,7 +13,7 @@
 
 > Colour Tags are used to style areas of text with colour. They contain both a start and an end tag - the start tag defining which colour should be rendered on screen and the end tag denoting when to stop reading. 
 
-<b>Usage:</b> `<cl>Coloured Text!</c>`
+**Usage:** `<cl>Coloured Text!</c>`
 
 <link rel="stylesheet" href="colour_tags.css">
 
@@ -33,15 +33,15 @@
 
 > Instant Tags are used to render text on screen immediately without any delay. Similarly to colour tags, Instant tags have a start and end tag to denote which piece of text should appear instantly.
 
-<b>Usage:</b> `<i>WHAT???!</i>`
+**Usage:** `<i>WHAT???!</i>`
 
 ## Delay Tags
 
 > Delay tags are used to create a delay before a specific string in dialog boxes. The game detects a Delay Tag if the string contains a `<d` and then it reads the next 3 characters and converts them into an integer. This value is then passed into the [CCDelayTime](https://docs.cocos2d-x.org/api-ref/cplusplus/V2.2/d6/dde/classcocos2d_1_1_c_c_delay_time.html) class from the [cocos2d-x](/) engine which Geometry Dash uses.
 
-<b>Usage:</b> `<d010>.<d010>.<d030>.`
+**Usage:** `<d010>.<d010>.<d030>.`
 
-<h2>Notes</h2>
+## Notes
 
 - Failing to add an end tag for Colour tags and Instant tags will result in the game crashing
 

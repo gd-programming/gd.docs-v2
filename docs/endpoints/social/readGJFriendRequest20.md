@@ -16,13 +16,13 @@
 
 ## Response
 
-<b>Successful Request</b>
+**Successful Request**
 
 ```py
 1
 ```
 
-<b>Failed Request</b>
+**Failed Request**
 
 ```py
 -1

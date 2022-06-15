@@ -10,7 +10,7 @@ To make a successful request to the Geometry Dash servers, there are a couple fa
 - Request Type
 - Rate Limits
 
-<b>Cloudflare</b>  
+**Cloudflare** \
 The Geometry Dash servers are protected using a service called [Cloudflare](https://www.cloudflare.com/). In order to send a successful request, bypassing cloudflare is essential. In order to bypass cloudflare there are two steps.
 
 - You must send the request to the `www.` subdomain.
@@ -19,9 +19,9 @@ The Geometry Dash servers are protected using a service called [Cloudflare](http
 
 If you don't follow these steps, cloudflare will block the request and you will recieve an HTTP error code: `1020`
 
-<b>Request Type</b>  
+**Request Type** \
 In 99% of cases, Geometry Dash requires you to send `POST` request. The request parameters require the following Content Type: `Content-Type: application/x-www-form-urlencoded`. 
 - The parameters required will be detailed in their respective sections.  
 
-<b>Rate Limits</b>  
+**Rate Limits** \
 One thing to be mindful about is the number of requests you send at a given time. Sending too many requests will result in you becoming rate limited and not being able to send any more requests for a certain duration. As the number of requests required to start a rate limit changes, we are unable to provide exact numbers

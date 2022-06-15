@@ -2,7 +2,7 @@
 
 > This endpoint is used to log into a players Geometry Dash account.
 
-## Paramters
+## Parameters
 
 | Parameter  | Explanation                                                                                           | Optional |
 | :--------- | :---------------------------------------------------------------------------------------------------- | :------- |
@@ -12,7 +12,7 @@
 | `sID`      | The player's steam ID                                                                                 | `True`   |
 | `secret`   | Account Secret: `Wmfv3899gc9`                                                                         | `False`  |
 
-<b>Note</b>  
+**Note** 
 the `sID` parameter is only sent to the servers if the player is logging into their account from the steam release of Geometry Dash. From what has been observed, it has not been utilised.
 
 ## Responses
@@ -33,4 +33,4 @@ If the request was not successful, there are 7 different error codes that can be
 | `-9`       | If the user's Username is less than 3 characters long                                                     |
 | `-11`      | If the user's login credentials are incorrect                                                             |
 | `-12`      | If the user's account is disabled                                                                         |
-| `-13`      | If the account the user is trying to log into has a different steam ID to to that account <b>(Unused)</b> |
+| `-13`      | If the account the user is trying to log into has a different steam ID to to that account **(Unused)** |

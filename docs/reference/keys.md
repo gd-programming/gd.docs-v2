@@ -22,14 +22,14 @@
 
 ## XOR Types
 
-> <u>There are <b>two</b> ways Geometry Dash applies [XOR Cipher](#) to strings - <b>Static</b> and <b>Cycled</b></u>
+> <u>There are **two** ways Geometry Dash applies [XOR Cipher](#) to strings - **Static** and **Cycled**</u>
 >
 > - Static Ciphers apply the key as is without any changes applying to the key itself.
 > - Cycled Ciphers iterate through each value on the key one by one and then loops back once it reaches the end.
 
 ## XOR Example
 
-> <i>Below are XOR functions for both variations. They are written in javascript for the sake of simplicity</i>
+> *Below are XOR functions for both variations. They are written in javascript for the sake of simplicity*
 
 <!-- tabs:start -->
 

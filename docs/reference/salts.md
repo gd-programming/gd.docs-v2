@@ -17,7 +17,7 @@
 
 - Salts are appended onto the end of a string of data. What happens to the salted string depends on what its used for.
 
-Below is an example of a salt being implemented within <b>Vault Codes</b>
+Below is an example of a salt being implemented within **Vault Codes**
 
 ```js
     function generate_vault_code(str /*brainpower*/)
