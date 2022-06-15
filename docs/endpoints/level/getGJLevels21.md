@@ -4,98 +4,103 @@
 
 ## Parameters
 
-| Parameter | Description | Required |
-| - | - | - |
-| `secret` | [Common secret](/reference/secrets.md) `Wmfd2893gb7` | Yes |
-| `gameVersion` | [Game Version](#), 21 on 2.1 | |
-| `binaryVersion` | [Binary Version](#), 35 on 2.113 | |
-| `type` | Search type, [see values](#type). Defaults to most liked | |
-| `str` | Search query, user ID or level list depending on `type` | Only on types 5 and 10 |
-| `page` | Which page to request, defaults to 0 | |
-| `total` | Currently unknown. Defaults to the amount of levels available up to 9999, but 0 or leaving it out also work. | |
-| `gjp` | The [GJP]() for the `accountID` | |
-| `accountID` | The ID for the account which is doing the search. Only sent on types 8, 13 and 5 | |
-| `gdw` | Whether the request is for GD World, either 0 or 1 | |
-| `gauntlet` | The ID for the gauntlet being requested | |
-| `diff` | Difficulty filter, [see values](#diff) | |
-| `demonFilter` | Selects which demon difficulty to search, [see values](#demonFilter). If not sent will search all demon types | |
-| `len` | Level length, [see values](#len) | |
-| `uncompleted` | Uncompleted filter, either 0 or 1 | |
-| `onlyCompleted` | Completed filter, either 0 or 1 | |
-| `completedLevels` | Comma separated list of completed level IDs surrounded by `[]` | Only when using (un)completed filters |
-| `featured` | Featured filter, either 0 or 1 | |
-| `original` | Original filter, either 0 or 1 | |
-| `twoPlayer` | Two Player Mode filter, either 0 or 1 | |
-| `coins` | Coins filter, either 0 or 1 | |
-| `epic` | Epic filter, either 0 or 1 | |
-| `noStar` | Unrated filter, either 0 or 1 | |
-| `star` | Rated filter, either 0 or 1 | |
-| `song` | Official (or custom) song ID, not sent when off | |
-| `customSong` | Newgrounds song, 1 when on and uses `song` as the ID, not sent when off | |
-| `followed` | Comma separated list of the followed user IDs | Only on type 12 |
+| Parameter         | Description                                                                                                   | Required                              |
+| ----------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| `secret`          | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                                   |
+| `gameVersion`     | [Game Version](#), 21 on 2.1                                                                                  |                                       |
+| `binaryVersion`   | [Binary Version](#), 35 on 2.113                                                                              |                                       |
+| `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
+| `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
+| `page`            | Which page to request, defaults to 0                                                                          |                                       |
+| `total`           | Currently unknown. Defaults to the amount of levels available up to 9999, but 0 or leaving it out also work.  |                                       |
+| `gjp`             | The [GJP](/topics/Algorithms/robtop-cipher.md) for the `accountID`                                            |                                       |
+| `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
+| `gdw`             | Whether the request is for GD World, either 0 or 1                                                            |                                       |
+| `gauntlet`        | The ID for the gauntlet being requested                                                                       |                                       |
+| `diff`            | Difficulty filter, [see values](#diff)                                                                        |                                       |
+| `demonFilter`     | Selects which demon difficulty to search, [see values](#demonFilter). If not sent will search all demon types |                                       |
+| `len`             | Level length, [see values](#len)                                                                              |                                       |
+| `uncompleted`     | Uncompleted filter, either 0 or 1                                                                             |                                       |
+| `onlyCompleted`   | Completed filter, either 0 or 1                                                                               |                                       |
+| `completedLevels` | Comma separated list of completed level IDs surrounded by `()`                                                | Only when using (un)completed filters |
+| `featured`        | Featured filter, either 0 or 1                                                                                |                                       |
+| `original`        | Original filter, either 0 or 1                                                                                |                                       |
+| `twoPlayer`       | Two Player Mode filter, either 0 or 1                                                                         |                                       |
+| `coins`           | Coins filter, either 0 or 1                                                                                   |                                       |
+| `epic`            | Epic filter, either 0 or 1                                                                                    |                                       |
+| `noStar`          | Unrated filter, either 0 or 1                                                                                 |                                       |
+| `star`            | Rated filter, either 0 or 1                                                                                   |                                       |
+| `song`            | Official (or custom) song ID, not sent when off                                                               |                                       |
+| `customSong`      | Newgrounds song, 1 when on and uses `song` as the ID, not sent when off                                       |                                       |
+| `followed`        | Comma separated list of the followed user IDs                                                                 | Only on type 12                       |
+| `local`           | Whether to fetch "My Levels", either 0 or 1                                                                   | Only on type 5                        |
 
 <details open id="type">
     <summary><code>type</code></summary>
 
-| Type | Description |
-| :-: | - |
-| 0 | Search query |
-| 1 | Most downloaded |
-| 2 | Most liked |
-| 3 | Trending |
-| 4 | Recent |
-| 5 | User's levels, uses `str` as the **user ID** |
-| 6 | Featured |
-| 7 | Magic |
-| 8 | Moderator sent levels (login required) |
-| 10 | Level list (used in map packs), uses `str` as a comma separated list of level IDs |
-| 11 | Awarded |
-| 12 | Followed (see `followed` parameter) |
-| 13 | Friends (login required) |
-| 15 | Most liked in GD World |
-| 16 | Hall of fame |
-| 17 | Featured in GD World |
-| 18 | Unknown (always empty, perhaps robtop only?) |
-| 21 | Daily history |
-| 22 | Weekly history |
+| Type | Description                                                                       |
+| :--: | --------------------------------------------------------------------------------- |
+|  0   | Search query                                                                      |
+|  1   | Most downloaded                                                                   |
+|  2   | Most liked                                                                        |
+|  3   | Trending                                                                          |
+|  4   | Recent                                                                            |
+|  5   | User's levels, uses `str` as the **user ID**                                      |
+|  6   | Featured                                                                          |
+|  7   | Magic                                                                             |
+|  8   | Moderator sent levels                                                             |
+|  10  | Level list (used in map packs), uses `str` as a comma separated list of level IDs |
+|  11  | Awarded                                                                           |
+|  12  | Followed (see `followed` parameter)                                               |
+|  13  | Friends (login required)                                                          |
+|  15  | Most liked in GD World                                                            |
+|  16  | Hall of fame                                                                      |
+|  17  | Featured in GD World                                                              |
+|  18  | Unknown (always empty, perhaps robtop only?)                                      |
+|  21  | Daily history                                                                     |
+|  22  | Weekly history                                                                    |
+
 </details>
 
 <details id="diff">
     <summary><code>diff</code></summary>
 
-| diff | Description |
-| :-: | - |
-| -1 | N/A |
-| -2 | Demons (see `demonFilter` for specifying demon difficulty) |
-| 1 | Easy |
-| 2 | Normal |
-| 3 | Hard |
-| 4 | Harder |
-| 5 | Insane |
+| diff | Description                                                |
+| :--: | ---------------------------------------------------------- |
+|  -1  | N/A                                                        |
+|  -2  | Demons (see `demonFilter` for specifying demon difficulty) |
+|  1   | Easy                                                       |
+|  2   | Normal                                                     |
+|  3   | Hard                                                       |
+|  4   | Harder                                                     |
+|  5   | Insane                                                     |
+
 </details>
 
 <details id="demonFilter">
     <summary><code>demonFilter</code></summary>
 
-| demonFilter | Description |
-| :-: | - |
-| 1 | Easy demon |
-| 2 | Medium demon |
-| 3 | Hard demon |
-| 4 | Insane demon |
-| 5 | Extreme demon |
+| demonFilter | Description   |
+| :---------: | ------------- |
+|      1      | Easy demon    |
+|      2      | Medium demon  |
+|      3      | Hard demon    |
+|      4      | Insane demon  |
+|      5      | Extreme demon |
+
 </details>
 
 <details id="len">
     <summary><code>len</code></summary>
 
-| len | Value |
-| :-: | - |
-| 0 | Tiny |
-| 1 | Short |
-| 2 | Medium |
-| 3 | Long |
-| 4 | XL |
+| len | Value  |
+| :-: | ------ |
+|  0  | Tiny   |
+|  1  | Short  |
+|  2  | Medium |
+|  3  | Long   |
+|  4  | XL     |
+
 </details>
 
 ## Response
@@ -107,13 +112,14 @@ levels#creators#songs#page info#hash
 ```
 
 where:
+
 - `levels` is a list of [Level Objects](#) separated by `|`
 - `creators` is a list of creators separated by `|`, each in the format `userID:username:accountID`
 - `songs` is a list of [Song Objects](#) separated by `~:~`
 - `page info` is in the format `total:offset:amount` where:
-    - `total` - total number of levels for the query
-    - `offset` - offset from which the current page starts
-    - `amount` - number of levels per page (always 10 for the gd servers)
+  - `total` - total number of levels for the query
+  - `offset` - offset from which the current page starts
+  - `amount` - number of levels per page (always 10 for the gd servers)
 - `hash` is a hash of every level, see [Hashes](#)
 <!-- should the hash be explained here or on its own page like how the old docs had a page for CHK -->
 
@@ -124,15 +130,15 @@ If the request is not successful, it will return `-1`
 ```js
 // pseudo code!
 request({
-    type: "POST",
-    url: "http://www.boomlings.com/database/getGJLevels21.php",
-    data: {
-        secret: "Wmfd2893gb7",
-        str: "bloodbath",
-        star: "1",
-        type: "0"
-    }
-})
+  type: "POST",
+  url: "http://www.boomlings.com/database/getGJLevels21.php",
+  data: {
+    secret: "Wmfd2893gb7",
+    str: "bloodbath",
+    star: "1",
+    type: "0",
+  },
+});
 ```
 
 ### Output
