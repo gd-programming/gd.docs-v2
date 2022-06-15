@@ -19,8 +19,8 @@ When needed, Geometry Dash iterates through every byte of the data and applies t
 ```js
 result = "";
 for (i = 0; i < input.length; i++) {
-  char = input[i].toByte();
-  result += (char ^ key).toChar();
+  byte = input[i].toByte();
+  result += (byte ^ key).toChar();
 }
 ```
 
@@ -29,9 +29,9 @@ for (i = 0; i < input.length; i++) {
 ```js
 result = "";
 for (i = 0; i < input.length; i++) {
-  char = input[i].toByte();
+  byte = input[i].toByte();
   xKey = i % key.length;
-  result += (char ^ xKey).toChar();
+  result += (byte ^ xKey).toChar();
 }
 ```
 
