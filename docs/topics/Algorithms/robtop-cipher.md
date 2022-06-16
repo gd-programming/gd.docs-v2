@@ -55,23 +55,4 @@ Within the cyclic XOR RobTop Cipher (the most common variant), the key should be
 The differentiating factor between cyclic and static XOR is that cyclic XOR uses a key longer than one byte. This means that the key has to be
 repeatedly looped over during the string iteration.
 
-This idea can be demonstrated within the pseudocode:
-```js
-plaintext = "value to encode"
-xor_key = "..." // The XOR Key from the key reference material.
-
-function cyclic_xor(text, key) {
-    key_length = key.length
-    result = "" // The final result will be stored here
-    for (idx = 0; idx < plaintext; idx++) {
-        cur_key_byte = into_utf8_code(key[idx % key_length]) // The key may be shorter than the text, so we loop over it. Hence the name "cyclic".
-        cur_char_byte = into_utf8_code(text[idx])
-        result += from_utf8_code(cur_char_byte ^ cur_key_byte)
-    }
-    return result
-}
-
-ciphertext = cyclic_xor(plaintext, xor_key)
-```
-
-Likewise, decoding involves the same process as encoding.
+Please refer to the [XOR](/topics/algorithms/xor.md) section for details on the implementation

@@ -28,6 +28,7 @@
     - [AES](/topics/Algorithms/AES.md)
     - [Base64](/topics/Algorithms/base64.md)
     - [XOR](/topics/Algorithms/Xor.md)
+    - [Robtop Cipher](/topics/Algorithms/robtop-cipher.md)
 
 - [Client]()
     - [Tags](/Topics/client/tags)
