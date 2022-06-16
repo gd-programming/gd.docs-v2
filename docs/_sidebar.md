@@ -25,7 +25,7 @@
 **Topics**
 
 - [Algorithms]()
-    - [AES](/topic/Algorithms/AES.md)
+    - [AES](/topics/Algorithms/AES.md)
     - [Base64](/topics/Algorithms/base64.md)
     - [XOR](/topics/Algorithms/Xor.md)
 
