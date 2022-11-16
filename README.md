@@ -3,7 +3,7 @@
 
 ## IMPORTANT
 
-This version of the GD Docs is still in its early stages. if you are in need of documentation, it is recommended you visit [GD Docs v1](https://github.com/gd-programming/gddocs) until this version has a good amount of documentation
+This version of the GD Docs is still in its early stages. If you are in need of documentation, it is recommended you visit [GD Docs v1](https://github.com/gd-programming/gddocs) until this version has a good amount of documentation.
 
 ## Setup
 
