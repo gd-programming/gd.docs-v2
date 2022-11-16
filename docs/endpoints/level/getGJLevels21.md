@@ -6,14 +6,14 @@
 
 | Parameter         | Description                                                                                                   | Required                              |
 | ----------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| `secret`          | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                                   |
+| `secret`          | [Common secret](/docs/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                                   |
 | `gameVersion`     | [Game Version](#), 21 on 2.1                                                                                  |                                       |
 | `binaryVersion`   | [Binary Version](#), 35 on 2.113                                                                              |                                       |
 | `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
 | `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
 | `total`           | Currently unknown. Defaults to the amount of levels available up to 9999, but 0 or leaving it out also work.  |                                       |
-| `gjp`             | The [GJP](/topics/Algorithms/robtop-cipher.md) for the `accountID`                                            |                                       |
+| `gjp`             | The [GJP](/docs/topics/Algorithms/robtop-cipher.md) for the `accountID`                                            |                                       |
 | `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
 | `gdw`             | Whether the request is for GD World, either 0 or 1                                                            |                                       |
 | `gauntlet`        | The ID for the gauntlet being requested                                                                       |                                       |
