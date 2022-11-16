@@ -2,7 +2,7 @@
 The RobTop Cipher refers to the combination of Base64 (url-safe) + XOR used frequently within Geometry Dash as a form of encryption.
 It is used within places such as passwords (GJP) or save data on Windows.
 The cipher may utilise either the cycled or static variant of the XOR cipher depending on where the ciphertext originates from (such as save data or the
-encoded password). To find out which variant is used, you may consult the [key reference material](/reference/keys.md#xor-keys).
+encoded password). To find out which variant is used, you may consult the [key reference material](/docs/reference/keys.md#xor-keys).
 
 ## Encryption and Decryption
 ### Encryption
@@ -55,4 +55,4 @@ Within the cyclic XOR RobTop Cipher (the most common variant), the key should be
 The differentiating factor between cyclic and static XOR is that cyclic XOR uses a key longer than one byte. This means that the key has to be
 repeatedly looped over during the string iteration.
 
-Please refer to the [XOR](/topics/algorithms/xor.md) section for details on the implementation
+Please refer to the [XOR](/docs/topics/Algorithms/Xor.md) section for details on the implementation
