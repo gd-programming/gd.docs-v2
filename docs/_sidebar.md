@@ -4,7 +4,7 @@
     - [Secrets](/docs/reference/secrets.md)
     - [Keys](/docs/reference/keys.md)
     - [Salts](/docs/reference/salts.md)
-- [Credits](/docs/README.md)
+- [Credits](/docs/Credits.md)
 
 **Resources**
 
